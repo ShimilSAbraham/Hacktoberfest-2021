@@ -19,9 +19,9 @@ You can also use other arts, provided you place the correct link in the code. <b
 You will also need to copy your github profile link.
 
 ### Step 4:
-Copy the code given below and paste in beneath the line saying <br>
-```Add your card below and put this comment towards the end of it``` <br>
-Also don't forget to remove this comment and place it after your code, so as to make it easy for others.
+Copy the code given below and paste in above the line saying <br>
+```Add your card above this and leave a line after it``` <br>
+Also don't forget to leave a space after your code, so as to make it easy for others.
 
 ``` [html]
 <div class="card">
