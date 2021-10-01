@@ -60,6 +60,7 @@
 }
 
 .team .card-container .card .name {
+    text-align: center;
     color: var(--dark);
     font-size: 1.5rem;
     font-weight: 600;
