@@ -1,0 +1,88 @@
+.team {
+  box-sizing: border-box;
+  padding: 100px 150px;
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.team .title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--brown);
+}
+
+.team .card-container{
+    width: 100%;
+    padding: 100px 0 70px;
+    min-height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 50px 100px;
+
+}
+
+.team .card-container .card {
+    width: 300px;
+    height: 400px;
+    background: var(--l-blue);
+    border: 5px solid var(--l-grey);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;   
+
+    transition: transform 0.5s;
+}
+.team .card-container .card:hover {
+    transform: translateY(-20px);
+}
+
+.team .card-container .card .dp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: var(--grey);
+    overflow: hidden;
+    border: 5px solid var(--orange);
+}
+
+.team .card-container .card .dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team .card-container .card .name {
+    color: var(--dark);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.team .card-container .card a.btn {
+  color: var(--light);
+  background: var(--orange);
+  width: 180px;
+  height: 50px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  transition: background-color 0.3s;
+}
+
+.team .card a.btn:hover {
+  background: var(--orange-active);
+}

@@ -1,0 +1,31 @@
+.about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: var(--l-blue);
+
+    box-sizing: border-box;
+    padding: 100px 150px;
+}
+
+.about h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.about img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 150px;
+    height: 500px;
+    border-radius: 20px;
+    opacity: 0.8;
+}

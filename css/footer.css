@@ -1,0 +1,64 @@
+.donate{
+    position: relative;
+    height: 45vh;
+    display: flex;
+    background: var(--l-blue);
+}
+
+.donate img.poo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.donate img.h{
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    height: 220px;
+    transform: translateY(-50%);
+}
+
+.donate .msg{
+    padding-left: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.donate .msg .title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--brown);
+}
+
+.donate .msg .para{
+    font-size: 1.1rem;
+    font-weight: 500;
+    /* color: var(--brown); */
+}
+
+.donate .msg a.btn{
+    color: var(--light);
+    background: var(--orange);
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+  
+    transition: background-color 0.3s;
+  }
+  
+  .donate .msg a.btn:hover{
+    background: var(--orange-active);
+  }
+

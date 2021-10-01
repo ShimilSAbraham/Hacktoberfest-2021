@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import './css/landing.css';
+@import './css/about.css';
+@import './css/team.css';
+@import './css/footer.css';
+
+:root{
+    --light: #f4f0e1;
+    --dark: #2B3531;
+
+    --orange: #f54500;
+    --orange-active: #db3e00;
+    --brown: #B53A25;
+    --l-brown: #A88771;
+    --grey: #677662;
+    --l-grey: #91A88C;
+    --l-blue: #dbe8d9;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button{
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background: var(--light);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+  transition: 0.3s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brown);
+}
+
+
+body {
+  margin: 0;
+  background: var(--light);
+  color: var(--dark);
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media (max-width: 800px){
+  body{
+    background-image: url('./img/svg/Hacktober_H.svg');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .page{
+    display: none;
+  }
+}
+
+
+

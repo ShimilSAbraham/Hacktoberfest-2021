@@ -1,0 +1,108 @@
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.landing .menu{
+  position: absolute;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650px;
+}
+
+.landing .menu .items{
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.landing .menu .items:hover{
+  color: var(--orange);
+}
+
+.landing .logo {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  pointer-events: none;
+}
+.landing .left,
+.landing .right {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) scaleX(-1);
+  pointer-events: none;
+}
+.landing .right {
+  position: absolute;
+  top: 50%;
+  left: initial;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.landing .text {
+  margin-top: 25%;
+  text-align: center;
+  color: var(--brown);
+  font-size: 1.1rem;
+
+  /* position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%,-50%); */
+}
+
+.landing .fork {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+/* Button common style */
+
+.landing .fork a.btn{
+  color: var(--light);
+  background: var(--orange);
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+
+  transition: background-color 0.3s;
+}
+
+.landing .fork a.btn:hover{
+  background: var(--orange-active);
+}
+
+.landing .fork img.poo{
+  height: 100px;
+  pointer-events: none;
+}
+.landing .fork img.poo:last-child{
+  transform: scaleX(-1);
+}
