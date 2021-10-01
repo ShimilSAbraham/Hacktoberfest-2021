@@ -29,19 +29,19 @@
 .team .card-container .card {
     width: 300px;
     height: 400px;
-    background: var(--l-blue);
-    border: 5px solid var(--l-grey);
+    background: linear-gradient(to bottom, var(--orange) 0% 35%, var(--light) 35% 100%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;   
+    gap: 10px;   
 
     transition: transform 0.5s;
 }
 .team .card-container .card:hover {
-    transform: translateY(-20px);
+    transform: translateY(-5px) scale(1.01);
 }
 
 .team .card-container .card .dp {
@@ -50,7 +50,7 @@
     border-radius: 50%;
     background: var(--grey);
     overflow: hidden;
-    border: 5px solid var(--orange);
+    border: 5px solid var(--dark);
 }
 
 .team .card-container .card .dp img{
@@ -64,22 +64,30 @@
     font-size: 1.5rem;
     font-weight: 600;
 }
+.team .card-container .card .sub {
+    color: var(--dark);
+    opacity: 0.9;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transform: translateY(-15px);
+}
 
 .team .card-container .card a.btn {
-  color: var(--light);
+    color: var(--light);
   background: var(--orange);
   width: 180px;
   height: 50px;
   border-radius: 30px;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 600;
-
+  
+  transform: translateY(20px);
   transition: background-color 0.3s;
 }
 
