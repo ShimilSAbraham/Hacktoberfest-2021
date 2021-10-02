@@ -32,6 +32,7 @@ Also don't forget to leave a space after your code, so as to make it easy for ot
         <img src="your github dp link here" alt="">
     </div>
     <div class="name">Your Name</div>
+    <div class="sub">Programmer</div>
     <a class="btn" href="your github profile link here" target="_blank">View Profile</a>
 </div>
 ```
