@@ -47,6 +47,16 @@
   transform: translateY(-50%) scaleX(-1);
   pointer-events: none;
 }
+
+@media (max-height: 600px){
+    .landing .left,
+    .landing .right {
+      height: 90%;
+    }
+  
+}
+
+
 .landing .right {
   position: absolute;
   top: 50%;
@@ -105,4 +115,40 @@
 }
 .landing .fork img.poo:last-child{
   transform: scaleX(-1);
+}
+
+@media (max-width: 450px){
+  .landing .menu{
+    top: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
+  .landing .menu .items{
+    padding: initial;
+    border-radius: 0px;
+    font-size: 0.9rem;
+  }
+
+.landing .logo {
+  width: 330px;
+}
+  .landing .left, .landing .right, .landing .fork img.poo{
+    display: none;
+  }
+  .landing .text {
+    width: 90%;
+    margin-top: 80%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  .landing .fork {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .landing .fork img.poo:last-child{
+    display: block;
+    height: 80px;
+    transform: rotate(90deg);
+  }
 }
