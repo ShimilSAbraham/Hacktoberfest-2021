@@ -67,5 +67,15 @@ body {
   }
 }
 
-
+@media (max-width: 1400px){
+  .about img{
+    height: 400px;
+}
+    .how{
+      height: 100vh;
+    }
+    .how img{
+      height: 550px;
+  }
+}
 
