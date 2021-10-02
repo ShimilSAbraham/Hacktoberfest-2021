@@ -62,3 +62,23 @@
     background: var(--orange-active);
   }
 
+  @media (max-width: 450px){
+    .donate{
+        height: 60vh;
+    }
+    .donate img.h{
+        display: none;
+    }
+    .donate .msg{
+        padding-left: 0px;
+        align-items: center;
+        gap: 40px;
+    }
+    .donate .msg .para{
+        font-size: 1rem;
+        font-weight: 500;
+        width: 80%;
+        line-height: 1.5rem;
+        /* color: var(--brown); */
+    }
+}
