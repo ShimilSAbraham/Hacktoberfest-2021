@@ -22,15 +22,15 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    gap: 50px 100px;
+    gap: 100px 50px;
 
 }
 
 .team .card-container .card {
   position: relative;
-    width: 300px;
-    height: 400px;
-    background: linear-gradient(to bottom, var(--orange) 0% 35%, var(--light) 35% 100%);
+    width: 250px;
+    height: 280px;
+    background: linear-gradient(to bottom, #f54500b0 0% 40%, var(--light) 40% 100%);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     border-radius: 15px; 
 
@@ -38,6 +38,7 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    cursor: pointer;
 
     transition: transform 0.5s;
 }
@@ -46,15 +47,15 @@
 }
 
 .team .card-container .card .dp {
-  position: absolute;
-  top: 35%;
-  transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: var(--grey);
     overflow: hidden;
-    border: 5px solid var(--dark);
+    border: 5px solid var(--orange);
 }
 
 .team .card-container .card .dp img{
@@ -65,19 +66,19 @@
 
 .team .card-container .card .name {
     text-align: center;
-    color: var(--dark);
-    font-size: 1.5rem;
+    color: #212121;
+    font-size: 1.3rem;
     font-weight: 600;
     width: 85%;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
 
-    margin-top: 230px;
+    margin-top: 50%;
 }
 .team .card-container .card .sub {
     color: var(--dark);
     margin-top: 5px;
     opacity: 0.9;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     transform: translateY(-15px);
 }
@@ -106,4 +107,17 @@
 
 .team .card a.btn:hover {
   background: var(--orange-active);
+}
+
+@media (max-width: 450px){
+  .team{
+    padding: 10px 0 80px;
+      /* display: none; */
+  }
+  .team .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--brown);
+  }
 }
