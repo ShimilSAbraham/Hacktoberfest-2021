@@ -75,6 +75,7 @@
 }
 .team .card-container .card .sub {
     color: var(--dark);
+    margin-top: 5px;
     opacity: 0.9;
     font-size: 1.1rem;
     font-weight: 500;
