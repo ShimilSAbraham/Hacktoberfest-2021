@@ -118,6 +118,12 @@
 }
 
 @media (max-width: 450px){
+  .landing{
+    background-image: url(../img/svg/Hacktober_poo_2.svg);
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    background-size: 300px;
+  }
   .landing .menu{
     top: 25px;
     width: 100%;

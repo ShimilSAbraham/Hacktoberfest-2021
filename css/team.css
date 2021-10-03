@@ -76,6 +76,7 @@
 }
 .team .card-container .card .sub {
     color: var(--dark);
+    text-align: center;
     margin-top: 5px;
     opacity: 0.9;
     font-size: 1rem;
@@ -119,5 +120,51 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--brown);
+  }
+  .team .card-container{
+    padding: 60px 0;
+    gap: 60px 30px;
+  }
+  .team .card-container .card {
+      width: 150px;
+      height: 170px;
+      background: var(--light);
+      box-sizing: border-box;
+      border: 3px solid #B53A2590;
+      box-shadow: none;
+      border-radius: 15px; 
+      gap: 0; 
+    }
+    .team .card-container .card:hover {
+      transform: translateY(0) scale(1);
+    }
+    .team .card-container .card .dp {
+      width: 60px;
+      height: 60px;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  .team .card-container .card .name {
+    font-size: 1rem;
+    line-height: 1rem;
+    height: fit-content;
+    width: 90%;
+    margin: 30%;
+  }
+  .team .card-container .card .sub {
+    transform: translateY(0px);
+    width: 90%;
+    margin-top: -40px;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+  }
+  .team .card-container .card a.btn {
+    font-weight: 500;
+    font-size: 0.8rem;
+    height: 35px;
+    width: 100px;
+    border-radius: 40px;
+    bottom: 8px;
+    transform: translateY(0);
   }
 }
