@@ -30,7 +30,7 @@
   position: relative;
     width: 250px;
     height: 280px;
-    background: linear-gradient(to bottom, #f54500b0 0% 40%, var(--light) 40% 100%);
+    background: linear-gradient(to bottom, var(--orange-70) 0% 40%, var(--light) 40% 100%);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     border-radius: 15px; 
 
@@ -130,7 +130,7 @@
       height: 170px;
       background: var(--light);
       box-sizing: border-box;
-      border: 3px solid #B53A2590;
+      border: 3px solid var(--orange-40);
       box-shadow: none;
       border-radius: 15px; 
       gap: 0; 
