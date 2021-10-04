@@ -15,7 +15,7 @@ Click on the edit icon on the top right ( _just before delete icon_ ). This will
 If you are editing this repo later, make sure that you __fetch upstream__ to stay updated with the changes made in this repo. 
 
 ### Step 4:
-Inside the html file, read the comments from lines 62 to 65 to get an idea of what you need to do. <br>
+Inside the html file, read the comments from lines 1682 to 1686 to get an idea of what you need to do. <br>
 You can get your github profile picture's link by going to your profile, <br> right click on your dp and ```Open image in new tab``` <br>
 Copy the link of the image and paste it in the code below where it says ```your github dp link here``` <br>
 You can also use other arts, provided you place the correct link in the code. <br>
