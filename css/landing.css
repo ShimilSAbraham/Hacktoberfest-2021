@@ -49,10 +49,16 @@
 }
 
 @media (max-height: 600px){
+.landing{
+   min-height: 140vh;
+}
     .landing .left,
     .landing .right {
       height: 90%;
     }
+.landing .text {
+  margin-top: 35%;
+}
   
 }
 
@@ -66,7 +72,7 @@
 }
 
 .landing .text {
-  margin-top: 25%;
+  margin-top: 29%;
   text-align: center;
   color: var(--brown);
   font-size: 1.1rem;
@@ -117,12 +123,38 @@
   transform: scaleX(-1);
 }
 
+.landing .sponsors{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.landing .sponsors .title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgba(145,168,140);
+}
+
+.landing .sponsors .logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.landing .sponsors .logos img{
+  height: 45px;
+}
+
+
 @media (max-width: 450px){
   .landing{
+    min-height: 110vh;
     background-image: url(../img/svg/Hacktober_poo_2.svg);
     background-repeat: no-repeat;
-    background-position: center 70px;
-    background-size: 300px;
+    background-position: center 80px;
+    background-size: 200px;
   }
   .landing .menu{
     top: 25px;
@@ -138,13 +170,14 @@
 
 .landing .logo {
   width: 330px;
+  top: 35%;
 }
   .landing .left, .landing .right, .landing .fork img.poo{
     display: none;
   }
   .landing .text {
     width: 90%;
-    margin-top: 80%;
+    margin-top: 90%;
     margin-bottom: 10px;
     font-size: 1rem;
   }
@@ -156,5 +189,28 @@
     display: block;
     height: 80px;
     transform: rotate(90deg);
+  }
+  .landing .sponsors{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .landing .sponsors .title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(145,168,140);
+  }
+  
+  .landing .sponsors .logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .landing .sponsors .logos img{
+    height: 25px;
   }
 }
