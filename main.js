@@ -1,3 +1,7 @@
+let members = document.querySelectorAll(".team .card-container .card");
+let num = document.querySelector(".team .title .num");
+num.textContent = members.length;
+
 let page = document.querySelectorAll(".page");
 let item = document.querySelectorAll(".landing .menu .items");
 
