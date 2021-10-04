@@ -49,10 +49,16 @@
 }
 
 @media (max-height: 600px){
+.landing{
+   min-height: 140vh;
+}
     .landing .left,
     .landing .right {
       height: 90%;
     }
+.landing .text {
+  margin-top: 35%;
+}
   
 }
 
@@ -66,7 +72,7 @@
 }
 
 .landing .text {
-  margin-top: 25%;
+  margin-top: 29%;
   text-align: center;
   color: var(--brown);
   font-size: 1.1rem;
