@@ -12,6 +12,9 @@
   font-weight: 700;
   color: var(--brown);
 }
+.logo{
+  top: 0;
+}
 
 .team .card-container{
     width: 100%;
@@ -109,6 +112,12 @@
 .team .card a.btn:hover {
   background: var(--orange-active);
 }
+.p-b-5{
+  padding-bottom: 5px;
+}
+/* .text{
+  margin-top: 5px;
+} */
 
 @media (max-width: 450px){
   .team{

@@ -34,10 +34,13 @@
 .landing .logo {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 35%;
   transform: translate(-50%, -50%);
   width: 650px;
   pointer-events: none;
+}
+.m-t-30{
+  margin-top: 30px;
 }
 .landing .left,
 .landing .right {
