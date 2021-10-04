@@ -11,6 +11,22 @@
   font-size: 4rem;
   font-weight: 700;
   color: var(--brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team .title .num {
+    background: var(--orange);
+    color: var(--light);
+    font-size: 1.2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team .card-container{
@@ -120,7 +136,11 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--brown);
+    gap: 10px;
   }
+  .team .title .num {
+    transform: scale(0.7);
+}
   .team .card-container{
     padding: 60px 0;
     gap: 60px 30px;
