@@ -1,12 +1,12 @@
 # Hacktoberfest-2021
 
-## How can you contribute ?
+## How Can You Contribute ?
 
-This is a beginner friendly repo. 
+This is a Beginner Friendly Repo. 
 It would be good if you have a basic knowledge about HTML.
 
 ### Step 1:
-Click on the file named ```index.html```
+Click on the File Named ```index.html```
 
 ### Step 2:
 Click on the edit icon on the top right ( _just before delete icon_ ). This will automatically fork this repo to your account.
@@ -38,4 +38,4 @@ Also don't forget to leave a space after your code, so as to make it easy for ot
 ```
 
 ### Step 6:
-After making suitable changes, make a pull request and sit back to see your card in this website.
+After making Suitable Changes, make a Pull Request and sit back to see your card in this Website.
