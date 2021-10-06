@@ -9,7 +9,7 @@
   gap: 30px;
 }
 
-.landing .menu{
+.landing .menu {
   position: absolute;
   top: 30px;
   display: flex;
@@ -18,7 +18,7 @@
   width: 650px;
 }
 
-.landing .menu .items{
+.landing .menu .items {
   padding: 10px 30px;
   border-radius: 30px;
   font-size: 1.1rem;
@@ -27,7 +27,7 @@
   transition: color 0.3s;
 }
 
-.landing .menu .items:hover{
+.landing .menu .items:hover {
   color: var(--orange);
 }
 
@@ -48,20 +48,18 @@
   pointer-events: none;
 }
 
-@media (max-height: 600px){
-.landing{
-   min-height: 140vh;
+@media (max-height: 600px) {
+  .landing {
+    min-height: 140vh;
+  }
+  .landing .left,
+  .landing .right {
+    height: 90%;
+  }
+  .landing .text {
+    margin-top: 35%;
+  }
 }
-    .landing .left,
-    .landing .right {
-      height: 90%;
-    }
-.landing .text {
-  margin-top: 35%;
-}
-  
-}
-
 
 .landing .right {
   position: absolute;
@@ -90,40 +88,36 @@
   gap: 30px;
 }
 
-
 /* Button common style */
 
-.landing .fork a.btn{
+.landing .fork a.btn {
   color: var(--light);
   background: var(--orange);
   width: 250px;
   height: 50px;
   border-radius: 30px;
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
-
   transition: background-color 0.3s;
 }
 
-.landing .fork a.btn:hover{
+.landing .fork a.btn:hover {
   background: var(--orange-active);
 }
 
-.landing .fork img.poo{
+.landing .fork img.poo {
   height: 100px;
   pointer-events: none;
 }
-.landing .fork img.poo:last-child{
+.landing .fork img.poo:last-child {
   transform: scaleX(-1);
 }
 
-.landing .sponsors{
+.landing .sponsors {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -131,48 +125,49 @@
   gap: 10px;
 }
 
-.landing .sponsors .title{
+.landing .sponsors .title {
   font-size: 1.2rem;
   font-weight: 600;
-  color: rgba(145,168,140);
+  color: rgba(145, 168, 140);
 }
 
-.landing .sponsors .logos{
+.landing .sponsors .logos {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
-.landing .sponsors .logos img{
+.landing .sponsors .logos img {
   height: 45px;
 }
 
-
-@media (max-width: 450px){
-  .landing{
+@media (max-width: 450px) {
+  .landing {
     min-height: 110vh;
     background-image: url(../img/svg/Hacktober_poo_2.svg);
     background-repeat: no-repeat;
     background-position: center 80px;
     background-size: 200px;
   }
-  .landing .menu{
+  .landing .menu {
     top: 25px;
     width: 100%;
     box-sizing: border-box;
     padding: 0 16px;
   }
-  .landing .menu .items{
+  .landing .menu .items {
     padding: initial;
     border-radius: 0px;
     font-size: 0.9rem;
   }
 
-.landing .logo {
-  width: 330px;
-  top: 35%;
-}
-  .landing .left, .landing .right, .landing .fork img.poo{
+  .landing .logo {
+    width: 330px;
+    top: 35%;
+  }
+  .landing .left,
+  .landing .right,
+  .landing .fork img.poo {
     display: none;
   }
   .landing .text {
@@ -185,32 +180,32 @@
     flex-direction: column-reverse;
     gap: 20px;
   }
-  .landing .fork img.poo:last-child{
+  .landing .fork img.poo:last-child {
     display: block;
     height: 80px;
     transform: rotate(90deg);
   }
-  .landing .sponsors{
+  .landing .sponsors {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
-  
-  .landing .sponsors .title{
+
+  .landing .sponsors .title {
     font-size: 1rem;
     font-weight: 500;
-    color: rgba(145,168,140);
+    color: rgba(145, 168, 140);
   }
-  
-  .landing .sponsors .logos{
+
+  .landing .sponsors .logos {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
   }
-  .landing .sponsors .logos img{
+  .landing .sponsors .logos img {
     height: 25px;
   }
 }
