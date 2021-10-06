@@ -3,7 +3,6 @@
     width: 100%;
     min-height: 100vh;
     background: var(--l-blue);
-
     box-sizing: border-box;
     padding: 100px 150px;
 }
