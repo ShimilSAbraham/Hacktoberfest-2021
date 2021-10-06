@@ -46,11 +46,9 @@
     width: 130px;
     height: 50px;
     border-radius: 30px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 600;

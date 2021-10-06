@@ -8,7 +8,6 @@
 :root{
     --light: #f4f0e1;
     --dark: #2B3531;
-
     --orange: #f54500;
     --orange-70: #f54500b3;
     --orange-40: #f5450066;
@@ -18,7 +17,6 @@
     --grey: #677662;
     --l-grey: #91A88C;
     --l-blue: #dbe8d9;
-
     --white: #d3c4ba;
 }
 
@@ -53,10 +51,8 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-
   display: flex;
   flex-direction: column;
-
 }
 
 @media (min-width: 450px) and (max-width: 800px){
