@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1 id="title">Education System Survey Form</h1>
+    <p id="description" id="sub-heading">Thank you for taking the time to give the suggestions to improve the system.</p>
+    <div id="main">     
+        <form id="survey-form">
+            <label id="name-label" for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <br>
+            <br>
+            <label id="email-label" for="name">Email: </label>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+            <br>
+            <br>
+            <label id="number-label" for="name">Age: </label>
+            <input type="number" id="number" placeholder="Enter Your Age" min="10" max="110" required>
+            <br>
+            <br>
+         
+            <p id="dropdown-label">What is your school level?</p>
+            <select id="dropdown" required>
+                <option disabled selected>Select your school level</option>
+                <option value="lower-primary">lower primary</option>
+                <option value="upper-primary">upper primary</option>
+                <option value="high-primary">high primary</option>
+                <option value="higher-secondary">higher secondary</option>
+            </select>
+    
+            <p>Have you been bullied in school?</p>
+            <input type="radio" name="user-recommend">Yes
+            <input type="radio" name="user-recommend">No
+            <input type="radio" name="user-recommend">Not Sure
+    
+            <p>What are your favourite subjects?</p>
+                <input type="checkbox" value="computer">Computer Science
+                <br>
+                <input type="checkbox" value="maths">Mathematics
+                <br>
+                <input type="checkbox" value="physics">Physics
+                <br>
+                <input type="checkbox" value="chemistry">chemistry
+                <br>
+                <input type="checkbox" value="biology">Biology
+                <br>
+                <input type="checkbox" value="history">History
+                <br>
+                <input type="checkbox" value="civics">Civics
+                <br>
+                <input type="checkbox" value="geography">Geography
+                <br>
+                <input type="checkbox" value="economics">Economics
+                <br>
+                <input type="checkbox" value="philosphy">Philosphy
+                <br>
+                <input type="checkbox" value="other">Other
+                <br>
+                <br>
+                <p>Any Suggestions?</p>
+              <textarea name="suggestion" id="suggestions" cols="50" rows="10"  placeholder="Enter your comment here...."></textarea>
+              <br>
+              <br>
+              <button id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
