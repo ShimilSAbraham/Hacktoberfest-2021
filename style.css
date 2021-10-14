@@ -55,6 +55,26 @@ body {
   flex-direction: column;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+  font-size: 25px;
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
 @media (min-width: 450px) and (max-width: 800px){
   body{
     background-image: url('./img/svg/Hacktober_H.svg');
@@ -78,4 +98,3 @@ body {
       height: 550px;
   }
 }
-

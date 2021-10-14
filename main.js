@@ -15,7 +15,7 @@ function looking(name, searchkey) {
   name = name.toLowerCase();
 
   //search returns -1 in case the string is not found
-  if(name.search(searchkey) >= 0) 
+  if(name.search(searchkey) >= 0)
     return name;
 }
 
@@ -38,16 +38,16 @@ const showCards = async () => {
   //updates the result array
   for (let i = 0; i < names.length; i++) {
     let name = names[i];
-    if(looking(name, searchValue)) 
+    if(looking(name, searchValue))
       result.push(name);
   }
 
   // goes through each card to check if it should be display or not
   members.forEach((member) => {
     let name = member.querySelector(".name").textContent;
-    if(result.includes(name)) 
+    if(result.includes(name))
       member.style.display = "flex";
-    else 
+    else
       member.style.display = "none";
   });
 };
@@ -62,4 +62,19 @@ for (let i = 0; i < item.length; i++) {
   item[i].addEventListener("click", function () {
     page[i].scrollIntoView();
   });
+}
+
+mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
