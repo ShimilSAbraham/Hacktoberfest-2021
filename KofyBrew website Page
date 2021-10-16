@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KofyBrew</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:930px)" href="./phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="./logo.png" alt="KofyBrew">
+            <p>KofyBrew</p>
+        </div>
+        <ul class="push">
+            <li class="items"><a href="">Home</a></li>
+            <li class="items"><a href="">Menu</a></li>
+            <li class="items"><a href="">Help</a></li>
+            <li class="items"><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome To KofyBrew</h1>
+        <p>The word espresso comes from Italian and means “expressed” or “forced out”. Espresso is made by forcing very hot water under high pressure through finely ground, compacted coffee..</p>
+        <p>Explore the KofyBrew...</p>
+    </section>
+    <section id="menu-container">
+        <h1 class="h-primary">Our Menu</h1>
+        <hr>
+        <div id="menu">
+            <div class="menu-item">
+                <img src="./espresso.jpg" alt="Espresso">
+                <h2 class="h-secondary">Espresso</h2>
+                <p>Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9–10 bars of pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roast degrees.</p>
+            </div>
+            <div class="menu-item">
+                <img src="./brew.jpg" alt="Brewed coffee">
+                <h2 class="h-secondary">Brewed coffee</h2>
+                <p>Brewed coffee is made by pouring hot water onto ground coffee beans, then allowing to brew. There are several methods for doing this, including using a filter, a percolator, and a French press. ... Water seeps through the ground coffee, absorbing its constituent chemical compounds.</p>
+            </div>
+            <div class="menu-item">
+                <img src="./cappucino.jpg" alt="Cappucino">
+                <h2 class="h-secondary">Cappucino</h2>
+                <p>A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milks, and flavoring with cinnamon or chocolate powder.</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section id="client-container">
+        <h1 class="h-primary">Preferred Partners..</h1>
+        <img src="./logo.png" alt="KofyBrew">
+        <p>Here at KofyBrew..We believe in making trust with the pioneers who are making this world continously better everyday.
+            Since 1998, when this kofyBrew established and now, after alomost 23 years.. we found that there is nothing better than 
+            hardwork and teamwork. Hardwork makes you shine out of the crowd, but without team work this is just a dream.
+        </p>
+        <div id="client"> 
+            <img src="./instagram.png" alt="" class="clients">
+            <img src="./apple.png" alt="" class="clients">
+            <img src="./twitter.png" alt="" class="clients">
+            <img src="./mcdonalds.png" alt="" class="clients">  
+        </div>
+    </section>
+    <footer>All Rights Reserved to KofyBrew &trade; | &copy; Copyright</footer>
+</body>
+</html>
